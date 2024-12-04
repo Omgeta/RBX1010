@@ -1,0 +1,18 @@
+/* Make all Markdown headings bold */
+h1,
+h2,
+h3 {
+  font-weight: bold !important;
+}
+
+[data-md-color-scheme="slate"] {
+  h1 {
+    color: #fff;
+  }
+}
+
+[data-md-color-scheme="default"] {
+  h1 {
+    color: #000;
+  }
+}
